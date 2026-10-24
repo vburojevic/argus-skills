@@ -1,0 +1,137 @@
+{
+  "version": "2.0.2",
+  "skills": [
+    {
+      "name": "acting-on-attention-lines",
+      "version": "1.1.0",
+      "description": "Use when reading, explaining, inspecting, or following up an Argus attention line from the anomaly sentinel, including its metric, baseline, duration, evidence, and clearing behavior.",
+      "sha256": "696432d944f6335c8da6cee0ebc5f4151aca54da371c0b52fa1cc96ca36c9629"
+    },
+    {
+      "name": "answering-check-ins",
+      "version": "1.1.2",
+      "description": "Use when saving one useful missing-context question for an Argus question, life event or episode, recording the person's answer, or managing its skip/snooze and correction history.",
+      "sha256": "6746e0fcc7223d6e011778042f7ff6b253b264b05843a4ffdc389e4c62f08ab2"
+    },
+    {
+      "name": "argus-cli-usage",
+      "version": "1.9.0",
+      "description": "Use when driving the argus CLI (personal health/nutrition tracker) — output contract, auth resolution, exit codes, confirmation semantics, pagination, and discovery conventions every argus command follows.",
+      "sha256": "d76c807519873aad5cab726a010a8aa270c52c74d6b1ed136c3b334cf72c512f"
+    },
+    {
+      "name": "explaining-relationships",
+      "version": "1.5.0",
+      "description": "Use when reading or explaining Argus cross-metric relationships, Spearman rho, sample size, strength band, contrast, lag, staleness, why a relationship is not causal, or how supplement and medication receipt series enter the universe.",
+      "sha256": "09ab7c8bfebaeee5f32f4c21b3cfaaf8a2921531088fd20e24656dd3cc64d5e5"
+    },
+    {
+      "name": "goals-and-progress",
+      "version": "1.5.2",
+      "description": "Use when setting or clearing nutrition/health targets in Argus, checking daily progress against goals, reading the daily summary dashboard, or analyzing trends over time.",
+      "sha256": "8d2567b69a9056429829e23af3703fecefd0e6a9bb0afa15c8dd618ef09f5e19"
+    },
+    {
+      "name": "grounding-in-context",
+      "version": "1.3.1",
+      "description": "Use when an agent needs a compact, current grounding document across an Argus user's health ledger before answering a multi-domain question or planning around their recorded state.",
+      "sha256": "bc9db58760cd5942fba0e6be5fa672226b94101980060f3108c67ab4e7651930"
+    },
+    {
+      "name": "keeping-questions",
+      "version": "2.0.2",
+      "description": "Keep personal health questions, review descriptive answers and explicitly follow recorded evidence changes.",
+      "sha256": "72c2f0f3046b0d78ff3a031249bb2b53036d0ce3fb59edb86441e81d097dda21"
+    },
+    {
+      "name": "logging-meals",
+      "version": "1.5.0",
+      "description": "Use when logging food, meals, or drinks to Argus from natural language, resolved foods, or structured inline nutrition, correcting or deleting logged meals, or previewing nutrition without writing.",
+      "sha256": "fefe69bc06830e86ace0e4acb3be45c781ef86708ec6da8e52ee38be01d3824f"
+    },
+    {
+      "name": "logging-medications",
+      "version": "1.6.0",
+      "description": "Use when listing medications shared from Apple Health, recording a confirmed medication dose in Argus, undoing a manual medication dose entry, or explaining how dose receipts feed relationships, experiments, events, and the context document.",
+      "sha256": "dfe732d40f784bed915769943a37a12481393b00206135ff779c7127a82126b4"
+    },
+    {
+      "name": "logging-supplements",
+      "version": "1.6.0",
+      "description": "Use when creating, editing, scheduling, taking, listing, or undoing supplements in Argus, including nutrient contributions, non-nutrient ingredients, starter prefills, regimens, checklist status, and nutrition coverage.",
+      "sha256": "d452c1822b5b25200765f5789f9fc641264beae084580b7d3eb0ec22e8deb35f"
+    },
+    {
+      "name": "looking-up-foods",
+      "version": "1.1.1",
+      "description": "Use when searching the Argus food corpus, looking up a barcode/GTIN, reading nutrition facts for a food, or checking data provenance and licensing of food records.",
+      "sha256": "fdfed0f2b397d08950c0174006450ebe76f6f050af1b9b2c3c7aa218d21546ba"
+    },
+    {
+      "name": "managing-access",
+      "version": "1.7.1",
+      "description": "Use when authenticating the argus CLI, creating/revoking Argus API keys, configuring non-interactive/CI access, wiring the Argus MCP server into an agent, or diagnosing 401s.",
+      "sha256": "985883c4978c408a739248b4526e630ed867117b88d2b3e3d1dcca9d8f2e8165"
+    },
+    {
+      "name": "managing-recipes",
+      "version": "1.0.2",
+      "description": "Use when listing, reading, creating, promoting, editing, deleting, or logging reusable Argus Recipes and their fractional Portions.",
+      "sha256": "08ac16a2f3a3154837bd5628ed6f47fe85072feb817f6ba1d567758a9abf2a21"
+    },
+    {
+      "name": "reacting-to-events",
+      "version": "1.12.0",
+      "description": "Use when an agent needs to follow Argus ledger changes live, inspect event history, or configure and verify a signed webhook subscription.",
+      "sha256": "0e3d0f7f76ed8311faece7d4987ae504577b81bfad00d30b1773df453178da9b"
+    },
+    {
+      "name": "reading-coverage",
+      "version": "1.0.0",
+      "description": "Use when reading or explaining Argus micronutrient coverage — the ledger sentence, the reference-intake basis, targets versus limits, a real zero on a logged day, one nutrient's contributors, or its 90-day history.",
+      "sha256": "116d884f814355d08ffa1d9309edbcf0e21170f9f17cdd3327f27381726e90bf"
+    },
+    {
+      "name": "reading-health-records",
+      "version": "1.0.1",
+      "description": "Use when listing or reading the clinical health records and CDA documents a person shared with Argus from Apple Health — allergies, conditions, immunizations, lab results, medications, procedures, vital signs, clinical notes, coverage — or explaining what a record says without interpreting it.",
+      "sha256": "4b341d9b323a340701cac45de2872010dc0eee915989dcd109f77b95cb0d370d"
+    },
+    {
+      "name": "reading-readiness",
+      "version": "1.2.0",
+      "description": "Use when reading or explaining an Argus readiness score, its HRV, resting-heart-rate, sleep, and load contributors, missing inputs, personal baselines, confidence, or readiness trend.",
+      "sha256": "b55400be786a3463052a091e845b7d1686647f6c7cf15067bdee424384e3c433"
+    },
+    {
+      "name": "reading-the-body",
+      "version": "1.0.6",
+      "description": "Use when reading or explaining the Argus body — its eleven systems, what moved against the person's own history, muscle load from workouts, symptom and episode pins on body sites, the body timeline, tagging a workout's muscles, placing an episode on the body, or the standard-figure setting.",
+      "sha256": "67505ae2400996a9923afdd313465ebba37915c7057e32c9580cb594a4864c1d"
+    },
+    {
+      "name": "recording-context",
+      "version": "1.4.1",
+      "description": "Use when recording, correcting or reading reported life events, symptom episodes and dated recovery observations in Argus.",
+      "sha256": "b785d0d6dded33b5d33983fbddb460ee9476807012e54a92bcd58f844eafabab"
+    },
+    {
+      "name": "remembering-for-the-person",
+      "version": "1.0.0",
+      "description": "Use when listing, adding, or deleting the visible facts Argus remembers across Ask Argus threads and agent surfaces.",
+      "sha256": "ad923ed207c607ff130a9a6ad6e89aed9d55e8f7f37e4b88900f0ad9d2ce94a8"
+    },
+    {
+      "name": "running-experiments",
+      "version": "1.6.0",
+      "description": "Use when declaring, monitoring, ending, abandoning, deleting, or interpreting an Argus N=1 before/after experiment, including runs bound to a supplement's intakes or a medication's doses.",
+      "sha256": "f0477c4d568b6c4a1833f6341e748e55afd0e490f0d532c8775f46c04b4c13e5"
+    },
+    {
+      "name": "tracking-metrics",
+      "version": "1.10.1",
+      "description": "Use when recording or querying body/health metrics and workouts in Argus — weight, steps, heart rate, sleep, water, or any of the 198 HealthKit metric types — including aggregates, derived figures, population reference, and unit conversion.",
+      "sha256": "3ba892eb92ffb22a8a3be930b51b657a249cbdf8c57bda057fe0c2ffc403842e"
+    }
+  ]
+}
